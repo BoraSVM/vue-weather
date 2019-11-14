@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="../src/css/weather.css" />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+
+    <title>VueWeather</title>
+  </head>
+  <body style="transition-duration:  2s">
+    <noscript>
+      <strong
+        >We're sorry but vue-tube doesn't work properly without JavaScript
+        enabled. Please enable it to continue.</strong
+      >
+    </noscript>
+
+    <div id="app"></div>
+
+    <footer
+      style="
+      bottom: 0;
+      position: fixed;
+      left: 0;
+      padding: 1%;
+      --margin-left: 50%
+      height: 30px;
+      color: white;
+      background-color: black;
+      justify-content: center;
+      font-size: 15px;
+      width: 100%;
+      opacity: 70%;
+    "
+    >
+      YAWA v1.0 &copy; Kuldeep Bora. 2019
+    </footer>
+  </body>
+</html>

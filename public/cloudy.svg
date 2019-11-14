@@ -1,0 +1,47 @@
+<svg width="1211" height="700" viewBox="0 0 1000 571" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1211" height="571" fill="white"/>
+<ellipse cx="201.893" cy="128.074" rx="120.893" ry="72.926" fill="#05d5ff"/>
+<ellipse cx="261.214" cy="72.926" rx="120.893" ry="72.926" fill="#05d5ff"/>
+<ellipse cx="382.107" cy="95.4206" rx="120.893" ry="72.926" fill="#05d5ff"/>
+<ellipse cx="673.954" cy="105.755" rx="89.9537" ry="52.2455" fill="#05d5ff"/>
+<ellipse cx="718.093" cy="66.2455" rx="89.9537" ry="52.2455" fill="#05d5ff"/>
+<ellipse cx="741.093" cy="86.2455" rx="89.9537" ry="52.2455" fill="#05d5ff"/>
+<ellipse cx="808.046" cy="82.361" rx="89.9537" ry="52.2455" fill="#05d5ff"/>
+<ellipse cx="226.171" cy="447.755" rx="64.1708" ry="52.2455" fill="#05d5ff"/>
+<ellipse cx="257.658" cy="408.245" rx="64.1708" ry="52.2455" fill="#05d5ff"/>
+<ellipse cx="274.066" cy="428.245" rx="64.1708" ry="52.2455" fill="#05d5ff"/>
+<ellipse cx="321.829" cy="424.361" rx="64.1708" ry="52.2455" fill="#05d5ff"/>
+<ellipse cx="348" cy="284.5" rx="74" ry="25.5" fill="#05d5ff"/>
+<ellipse cx="386" cy="258.5" rx="74" ry="25.5" fill="#05d5ff"/>
+<ellipse cx="440.5" cy="284.5" rx="92.5" ry="39.5" fill="#05d5ff"/>
+<ellipse cx="962.714" cy="162.593" rx="93.7143" ry="28.022" fill="#FFFBFB"/>
+<ellipse cx="1010.84" cy="134.022" rx="93.7143" ry="28.022" fill="#FFFBFB"/>
+<ellipse cx="1079.86" cy="162.593" rx="117.143" ry="43.4066" fill="#FFFBFB"/>
+<ellipse cx="976.714" cy="406.626" rx="93.7143" ry="40.9121" fill="#FFFBFB"/>
+<ellipse cx="1024.84" cy="364.912" rx="93.7143" ry="40.9121" fill="#FFFBFB"/>
+<ellipse cx="1093.86" cy="406.626" rx="117.143" ry="63.3736" fill="#FFFBFB"/>
+<ellipse cx="55.7143" cy="320.742" rx="55.7143" ry="35.0275" fill="#05d5ff">
+
+</ellipse>
+<ellipse cx="84.3243" cy="285.027" rx="55.7143" ry="35.0275" fill="#05d5ff"/>
+<ellipse cx="125.357" cy="320.742" rx="69.6429" ry="54.2582" fill="#05d5ff"/>
+<ellipse cx="677.429" cy="299.714" rx="93.4286" ry="58.2857" fill="#05d5ff"/>
+<ellipse cx="725.405" cy="240.286" rx="93.4286" ry="58.2857" fill="#05d5ff"/>
+<ellipse cx="794.214" cy="299.714" rx="116.786" ry="90.2857" fill="#05d5ff"/>
+<ellipse cx="549.714" cy="506.324" rx="127.714" ry="41.7527" fill="#05d5ff"/>
+<ellipse cx="615.297" cy="463.753" rx="127.714" ry="41.7527" fill="#05d5ff">
+
+</ellipse>
+<ellipse cx="709.357" cy="506.324" rx="159.643" ry="64.6758" fill="#05d5ff">
+
+</ellipse>
+<animateTransform attributeName="transform"
+    type="scale"
+    from="1 1"
+    to="1 1.15"
+    begin="0s"
+    dur="4s"
+    repeatCount="indefinite"
+  />
+
+</svg>
