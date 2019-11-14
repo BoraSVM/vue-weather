@@ -33,11 +33,16 @@
 
     <div id="map" :v-on="onMapClick"></div>
     <transition name="fade">
-      <div class="loc" v-if="fetchWeather">
+      <!-- <div class="loc" v-if="fetchWeather">
         <h4>
           Nearest Loc: {{ location }} |
           {{ weather_state }} | {{ temperature }} &deg;C
         </h4>
+      </div>-->
+      <div class="weather-info" v-if="fetchWeather">
+        <div class="state">{{ weather_state }}</div>
+        <div class="city">{{ location }}</div>
+        <div class="temp">{{ temperature }} &deg;</div>
       </div>
       <loading class="loc" v-else />
     </transition>
@@ -147,7 +152,7 @@ export default {
               this.weather_state =
                 data.consolidated_weather[0].weather_state_name;
               this.temperature = data.consolidated_weather[0].the_temp.toFixed(
-                2
+                1
               );
               this.wind_speed = data.consolidated_weather[0].wind_speed;
               this.abbr = data.consolidated_weather[0].weather_state_abbr;
@@ -287,7 +292,38 @@ export default {
   padding: 3px;
   position: absolute;
   --display: none;
-  transition: display 1s;
+  transition: all 0.4s;
+}
+
+.weather-info {
+  margin-left: 20%;
+  margin-top: 1%;
+  position: absolute;
+}
+
+.state {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+.city {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  left: 50%;
+  position: relative;
+  transform: translateX(-30%);
+}
+
+.temp {
+  left: 63%;
+  margin-right: -50%;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  position: relative;
+  transform: translateX(-19%);
 }
 
 .block {
@@ -406,6 +442,13 @@ export default {
   .desc {
     display: none;
   }
+
+  .weather-info {
+    margin-left: 20%;
+    margin-top: 15%;
+
+    position: absolute;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -414,10 +457,6 @@ export default {
     width: 220px;
     top: 40px;
     left: 0;
-  }
-
-  .loc {
-    top: 55%;
   }
 
   #map:hover {
@@ -437,6 +476,7 @@ export default {
   }
 
   .loc {
+    top: 55%;
     font-size: 9px;
     margin-left: 10%;
     margin-top: 1%;
@@ -445,6 +485,14 @@ export default {
     width: 40%;
     --display: none;
     transition: all 0.5s;
+  }
+
+  footer {
+    height: 57px;
+  }
+
+  body {
+    background-repeat: unset;
   }
 }
 
