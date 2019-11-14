@@ -299,7 +299,6 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 95%;
 }
 .block span {
   height: 190px;
