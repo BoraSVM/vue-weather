@@ -407,6 +407,42 @@ export default {
   }
 }
 
+@media screen and (max-width: 450px) {
+  #map {
+    height: 200px;
+    width: 220px;
+    top: 40px;
+    left: 0;
+  }
+
+  .loc {
+    top: 55%;
+  }
+
+  #map:hover {
+    height: 300px;
+    width: 370px;
+  }
+
+  .block {
+    width: 100%;
+    height: 100%;
+    transform: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .showinfo {
+    display: none;
+  }
+
+  .desc {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 700px) {
   .desc {
     display: none;
