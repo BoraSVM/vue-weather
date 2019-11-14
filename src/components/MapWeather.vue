@@ -299,6 +299,7 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
+  border-bottom-right-radius: 50%;
 }
 .block span {
   height: 190px;
@@ -420,26 +421,30 @@ export default {
   }
 
   #map:hover {
-    height: 300px;
-    width: 370px;
+    height: 200px;
+    width: 220px;
   }
 
   .block {
     width: 100%;
-    height: 100%;
-    transform: none;
-  }
-
-  .menu {
-    display: none;
-  }
-
-  .showinfo {
-    display: none;
+    height: 85%;
+    transform: skewY(-10deg);
+    border-bottom-right-radius: 40%;
   }
 
   .desc {
     display: none;
+  }
+
+  .loc {
+    font-size: 9px;
+    margin-left: 10%;
+    margin-top: 1%;
+    padding: 3px;
+    position: absolute;
+    width: 40%;
+    --display: none;
+    transition: all 0.5s;
   }
 }
 
